@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe de TI - Tech Innovators</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tech Innovators</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre" onclick="openTab('sobre')">Sobre Nós</a></li>
+                <li><a href="#servicos" onclick="openTab('servicos')">Serviços</a></li>
+                <li><a href="#equipe" onclick="openTab('equipe')">Nossa Equipe</a></li>
+                <li><a href="#contato" onclick="openTab('contato')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="tab-content">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma equipe de especialistas em TI com foco em soluções inovadoras, transformando tecnologia em resultados para nossos clientes.</p>
+        </section>
+
+        <section id="servicos" class="tab-content" style="display:none;">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Desenvolvimento de Software</li>
+                <li>Consultoria em Segurança Cibernética</li>
+                <li>Integração de Sistemas</li>
+                <li>Suporte Técnico e Manutenção</li>
+            </ul>
+        </section>
+
+        <section id="equipe" class="tab-content" style="display:none;">
+            <h2>Nossa Equipe</h2>
+            <p>Conheça os membros que fazem a mágica acontecer:</p>
+            <ul>
+                <li><strong>Bárbara Ferreira</strong> - Desenvolvedora Full Stack</li>
+                <li><strong>Rafael Lima</strong> - Especialista em Segurança da Informação</li>
+                <li><strong>João Oliveira</strong> - Engenheiro de Software</li>
+                <li><strong>Ana Costa</strong> - Analista de Dados</li>
+                <li><strong>Carlos Mendes</strong> - Gestor de Projetos</li>
+            </ul>
+        </section>
+
+        <section id="contato" class="tab-content" style="display:none;">
+            <h2>Contato</h2>
+            <p>Entre em contato com a nossa equipe para soluções personalizadas:</p>
+            <p>Email: contato@techinnovators.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
