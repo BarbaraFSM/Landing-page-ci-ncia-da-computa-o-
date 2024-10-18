@@ -3,58 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipe de TI - Tech Innovators</title>
+    <title>Equipe de TI - Inovação e Tecnologia</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Tech Innovators</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre" onclick="openTab('sobre')">Sobre Nós</a></li>
-                <li><a href="#servicos" onclick="openTab('servicos')">Serviços</a></li>
-                <li><a href="#equipe" onclick="openTab('equipe')">Nossa Equipe</a></li>
-                <li><a href="#contato" onclick="openTab('contato')">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="sobre" class="tab-content">
-            <h2>Sobre Nós</h2>
-            <p>Somos uma equipe de especialistas em TI com foco em soluções inovadoras, transformando tecnologia em resultados para nossos clientes.</p>
-        </section>
+<header>
+    <h1>Bem-vindo à Equipe de TI</h1>
+</header>
 
-        <section id="servicos" class="tab-content" style="display:none;">
-            <h2>Serviços</h2>
-            <ul>
-                <li>Desenvolvimento de Software</li>
-                <li>Consultoria em Segurança Cibernética</li>
-                <li>Integração de Sistemas</li>
-                <li>Suporte Técnico e Manutenção</li>
-            </ul>
-        </section>
+<nav>
+    <a href="#membros" onclick="openTab(event, 'membros')">membros</a>
+    <a href="#servicos" onclick="openTab(event, 'servicos')">Serviços</a>
+    <a href="#nossa-historia" onclick="openTab(event, 'nossa-historia')">Nossa História</a>
+    <a href="#projetos" onclick="openTab(event, 'projetos')">Projetos</a>
+    <a href="#contato" onclick="openTab(event, 'contato')">Contato</a>
+</nav>
 
-        <section id="equipe" class="tab-content" style="display:none;">
-            <h2>Nossa Equipe</h2>
-            <p>Conheça os membros que fazem a mágica acontecer:</p>
-            <ul>
-                <li><strong>Bárbara Ferreira</strong> - Desenvolvedora Full Stack</li>
-                <li><strong>Rafael Lima</strong> - Especialista em Segurança da Informação</li>
-                <li><strong>João Oliveira</strong> - Engenheiro de Software</li>
-                <li><strong>Ana Costa</strong> - Analista de Dados</li>
-                <li><strong>Carlos Mendes</strong> - Gestor de Projetos</li>
-            </ul>
-        </section>
 
-        <section id="contato" class="tab-content" style="display:none;">
-            <h2>Contato</h2>
-            <p>Entre em contato com a nossa equipe para soluções personalizadas:</p>
-            <p>Email: contato@techinnovators.com</p>
-            <p>Telefone: (11) 1234-5678</p>
-        </section>
-    </main>
+<section class="intro">
+    <h2>Inovação, Tecnologia e Soluções Personalizadas</h2>
+    <p>Nossa equipe de TI é especializada em fornecer soluções tecnológicas personalizadas que atendem às necessidades específicas de nossos clientes.Garantimos inovação e eficiência em cada projeto.</p>
+</section>
 
-    <script src="script.js"></script>
+<div id="membros" class="tab-content"></div>
+    <div class="team-member">
+        <img src="membro1.jpg" alt="Membro da equipe">
+        <h3>Bárbara Ferreira</h3>
+        <p>Desenvolvedora Full Stack</p>
+    </div>
+    <div class="team-member">
+        <img src="membro2.jpg" alt="Membro da equipe">
+        <h3>Cauã</h3>
+        <p>Especialista em Infraestrutura</p>
+    </div>
+
+    <div class="team-member">
+        <img src="membro3.jpg" alt="Membro da equipe">
+        <h3>Pedro</h3>
+        <p>Analista de Segurança</p>
+    </div>
+   
+    <div class="team-member">
+        <img src="membro3.jpg" alt="Membro da equipe">
+        <h3>Rafael</h3>
+        <p>Analista de Segurança</p>
+    </div>
+   
+   
+    <div class="team-member">
+        <img src="membro3.jpg" alt="Membro da equipe">
+        <h3>Rafael</h3>
+        <p>Analista de Segurança</p>
+    </div>
+   
+    <div id="servicos" class="tab-content">
+        <h2>Serviços</h2>
+        <p>Oferecemos uma ampla gama de serviços tecnológicos, incluindo desenvolvimento de software personalizado, gerenciamento de infraestrutura, consultoria em segurança da informação, e mais.</p>
+    </div>
+
+    <div id="nossa-historia" class="tab-content"></div>
+        <h2>nossa historia</h2>
+        <p>
+            Nossa equipe de TI começou no segundo semestre do curso de Ciência da Computação, onde descobrimos como o trabalho em conjunto faz toda a diferença.
+        Cada membro traz suas próprias habilidades e perspectivas, o que torna a colaboração essencial para superar desafios.
+        Trabalhar em equipe não só facilita o aprendizado, mas também nos impulsiona a crescer mais rápido e encontrar soluções criativas.
+         Juntos, combinamos nossas forças e aprendemos a lidar com problemas complexos, sempre compartilhando conhecimento e buscando melhorar
+         como profissionais e como grupo</p>
+    </div>
+
+    <div id="projetos" class="tab-content">
+        <h2>Projetos</h2>
+        <p>Trabalhamos em projetos inovadores e desafiadores que envolvem desde desenvolvimento de aplicativos móveis até a implementação de sistemas em nuvem para empresas de diferentes setores.</p>
+    </div>
+
+    <div id="contato" class="tab-content">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco através do email: contato@equipeti.com ou pelo telefone: (61) 99999-9999.</p>
+    </div>
+</div>
+    
+</section>
+
+
+<footer>
+    <p>&copy; 2024 Equipe de TI. Todos os direitos reservados.</p>
+</footer>
+
 </body>
 </html>
